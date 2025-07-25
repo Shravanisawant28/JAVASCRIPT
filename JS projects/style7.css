@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.card{
+    height: 500px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    background-color: bisque;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+        
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 8px solid white;
+    background-color: #fffefe;
+    margin-left: 75px;
+    
+    
+}
+.circle img{
+    height: 100%;
+    width: 99%;
+    border-radius: 100%;
+}
+button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 20px 30px;
+    
+}
+button i{
+  color: blue;
+}
+
+h2{
+    padding: 30px 0 5px;
+}
+.line{
+    
+    height: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 25px 50px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 100%;
+    background-color: blue;
+    border: 7px solid white;
+}
+.btn2{
+  height:60px ;
+  width: 60px;
+ margin: 0px 15px;
+}
